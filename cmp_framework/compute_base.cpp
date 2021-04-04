@@ -1063,4 +1063,3 @@ CMP_INT CMP_API CMP_NumberOfProcessors(void) {
 #endif
 }
 
-

@@ -38,7 +38,7 @@
 
 #pragma warning(push)
 #pragma warning(disable : 4244)
-#include <half.h>
+#include "../cmp_framework/common/half/half.h"
 #pragma warning(pop)
 
 #ifndef CMP_MAKEFOURCC
@@ -104,7 +104,7 @@ typedef struct
 
 } CMP_ANALYSIS_DATA;
 
-struct CMP_CMIPS
+struct __declspec(dllexport) CMP_CMIPS
 {
     // User Configurable Print lines
     int  m_infolevel = 1;
