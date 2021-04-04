@@ -71,7 +71,7 @@ extern void* make_Plugin_GTC();
 extern void* make_Plugin_APC();
 #endif
 
-void CMP_RegisterHostPlugins() {
+void CMP_API CMP_RegisterHostPlugins() {
     if (HostPluginsRegistered == FALSE) {
         // Hosts
         g_pluginManager.registerStaticPlugin("IMAGE", "DDS", (void*)make_Plugin_DDS);

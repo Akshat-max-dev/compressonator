@@ -836,6 +836,7 @@ CMP_BOOL   CMP_API CMP_IsCompressedFormat(CMP_FORMAT format);
 //--------------------------------------------
 // CMP_Compute Lib: Host level interface
 //--------------------------------------------
+void CMP_API CMP_RegisterHostPlugins();
 CMP_ERROR CMP_API CMP_CreateComputeLibrary(CMP_MipSet *srcTexture, KernelOptions  *kernelOptions, void *Reserved);
 CMP_ERROR CMP_API CMP_DestroyComputeLibrary(CMP_BOOL forceClose);
 CMP_ERROR CMP_API CMP_SetComputeOptions(ComputeOptions *options);

@@ -19,3 +19,4 @@ CMP_FreeMipSet
 CMP_LoadTexture
 CMP_SaveTexture
 CMP_NumberOfProcessors
+CMP_RegisterHostPlugins
